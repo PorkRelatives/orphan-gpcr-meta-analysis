@@ -41,7 +41,7 @@ os.chdir(repo_name)
 
 print(\"Installing all necessary dependencies...\")
 !pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121 -q
-!pip install fair-esm biopython requests faiss-gpu -q
+!pip install fair-esm biopython requests faiss-cpu -q
 
 print(\"\\nSetup complete. All dependencies are installed.\")"""
 nb['cells'].append(nbf.v4.new_code_cell(code_setup))
