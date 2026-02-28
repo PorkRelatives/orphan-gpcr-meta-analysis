@@ -1,0 +1,633 @@
+{
+  "audit_author": [
+    {
+      "identifier_orcid": "0000-0003-3522-3661",
+      "name": "Soman, A.",
+      "pdbx_ordinal": 1
+    }
+  ],
+  "citation": [
+    {
+      "country": "UK",
+      "id": "primary",
+      "journal_abbrev": "Nature",
+      "journal_id_astm": "NATUAS",
+      "journal_id_csd": "0006",
+      "journal_id_issn": "1476-4687",
+      "journal_volume": "609",
+      "page_first": "1048",
+      "page_last": "1055",
+      "pdbx_database_id_doi": "10.1038/s41586-022-05236-5",
+      "pdbx_database_id_pub_med": 36104563,
+      "rcsb_authors": [
+        "Soman, A.",
+        "Wong, S.Y.",
+        "Korolev, N.",
+        "Surya, W.",
+        "Lattmann, S.",
+        "Vogirala, V.K.",
+        "Chen, Q.",
+        "Berezhnoy, N.V.",
+        "van Noort, J.",
+        "Rhodes, D.",
+        "Nordenskiold, L."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "Nature",
+      "title": "Columnar structure of human telomeric chromatin.",
+      "year": 2022
+    }
+  ],
+  "database2": [
+    {
+      "database_code": "7V96",
+      "database_id": "PDB",
+      "pdbx_doi": "10.2210/pdb7v96/pdb",
+      "pdbx_database_accession": "pdb_00007v96"
+    },
+    {
+      "database_code": "D_1300024300",
+      "database_id": "WWPDB"
+    },
+    {
+      "database_code": "EMD-31810",
+      "database_id": "EMDB"
+    }
+  ],
+  "em3d_fitting": [
+    {
+      "id": "1"
+    }
+  ],
+  "em3d_reconstruction": [
+    {
+      "id": "1",
+      "image_processing_id": "1",
+      "num_particles": 133026,
+      "resolution": 3.92,
+      "resolution_method": "FSC 0.143 CUT-OFF",
+      "symmetry_type": "POINT"
+    }
+  ],
+  "em_ctf_correction": [
+    {
+      "em_image_processing_id": "1",
+      "id": "1",
+      "type": "PHASE FLIPPING AND AMPLITUDE CORRECTION"
+    }
+  ],
+  "em_entity_assembly": [
+    {
+      "entity_id_list": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "id": "1",
+      "name": "Telomeric Dinucleosome",
+      "parent_id": 0,
+      "source": "RECOMBINANT",
+      "type": "COMPLEX"
+    }
+  ],
+  "em_experiment": {
+    "aggregation_state": "PARTICLE",
+    "entity_assembly_id": "1",
+    "id": "1",
+    "reconstruction_method": "SINGLE PARTICLE"
+  },
+  "em_image_recording": [
+    {
+      "avg_electron_dose_per_image": 50.0,
+      "film_or_detector_model": "GATAN K3 (6k x 4k)",
+      "id": "1",
+      "imaging_id": "1"
+    }
+  ],
+  "em_imaging": [
+    {
+      "accelerating_voltage": 300,
+      "electron_source": "FIELD EMISSION GUN",
+      "id": "1",
+      "illumination_mode": "OTHER",
+      "microscope_model": "FEI TITAN KRIOS",
+      "mode": "BRIGHT FIELD",
+      "specimen_id": "1"
+    }
+  ],
+  "em_software": [
+    {
+      "category": "CRYSTALLOGRAPHY MERGING",
+      "id": "1",
+      "image_processing_id": "1",
+      "imaging_id": "1"
+    },
+    {
+      "category": "IMAGE ACQUISITION",
+      "id": "2",
+      "imaging_id": "1"
+    },
+    {
+      "category": "MASKING",
+      "id": "3"
+    },
+    {
+      "category": "CTF CORRECTION",
+      "id": "4",
+      "image_processing_id": "1"
+    },
+    {
+      "category": "LAYERLINE INDEXING",
+      "id": "5"
+    },
+    {
+      "category": "DIFFRACTION INDEXING",
+      "id": "6"
+    },
+    {
+      "category": "MODEL FITTING",
+      "id": "7"
+    },
+    {
+      "category": "MODEL REFINEMENT",
+      "id": "8"
+    },
+    {
+      "category": "OTHER",
+      "id": "9"
+    },
+    {
+      "category": "INITIAL EULER ASSIGNMENT",
+      "id": "10",
+      "image_processing_id": "1"
+    },
+    {
+      "category": "FINAL EULER ASSIGNMENT",
+      "id": "11",
+      "image_processing_id": "1"
+    },
+    {
+      "category": "CLASSIFICATION",
+      "id": "12",
+      "image_processing_id": "1"
+    },
+    {
+      "category": "RECONSTRUCTION",
+      "id": "13",
+      "image_processing_id": "1"
+    }
+  ],
+  "em_specimen": [
+    {
+      "concentration": 1.0,
+      "embedding_applied": "NO",
+      "experiment_id": "1",
+      "id": "1",
+      "shadowing_applied": "NO",
+      "staining_applied": "NO",
+      "vitrification_applied": "YES"
+    }
+  ],
+  "em_vitrification": [
+    {
+      "cryogen_name": "ETHANE",
+      "id": "1",
+      "specimen_id": "1"
+    }
+  ],
+  "entry": {
+    "id": "7V96"
+  },
+  "exptl": [
+    {
+      "method": "ELECTRON MICROSCOPY"
+    }
+  ],
+  "pdbx_audit_revision_category": [
+    {
+      "category": "citation",
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "citation_author",
+      "data_content_type": "Structure model",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "citation",
+      "data_content_type": "Structure model",
+      "ordinal": 3,
+      "revision_ordinal": 3
+    },
+    {
+      "category": "citation",
+      "data_content_type": "Structure model",
+      "ordinal": 4,
+      "revision_ordinal": 4
+    },
+    {
+      "category": "chem_comp_atom",
+      "data_content_type": "Structure model",
+      "ordinal": 5,
+      "revision_ordinal": 5
+    },
+    {
+      "category": "chem_comp_bond",
+      "data_content_type": "Structure model",
+      "ordinal": 6,
+      "revision_ordinal": 5
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 2,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 3,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Data collection",
+      "ordinal": 4,
+      "revision_ordinal": 5
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2022-07-27T00:00:00+0000"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 1,
+      "ordinal": 2,
+      "revision_date": "2022-09-21T00:00:00+0000"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 2,
+      "ordinal": 3,
+      "revision_date": "2022-10-05T00:00:00+0000"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 3,
+      "ordinal": 4,
+      "revision_date": "2022-10-12T00:00:00+0000"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 4,
+      "ordinal": 5,
+      "revision_date": "2024-06-12T00:00:00+0000"
+    }
+  ],
+  "pdbx_audit_revision_item": [
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.country",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_abbrev",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_id_ASTM",
+      "ordinal": 3,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_id_CSD",
+      "ordinal": 4,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_id_ISSN",
+      "ordinal": 5,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.pdbx_database_id_DOI",
+      "ordinal": 6,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.title",
+      "ordinal": 7,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.year",
+      "ordinal": 8,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation_author.identifier_ORCID",
+      "ordinal": 9,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation_author.name",
+      "ordinal": 10,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.pdbx_database_id_PubMed",
+      "ordinal": 11,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.title",
+      "ordinal": 12,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_volume",
+      "ordinal": 13,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_first",
+      "ordinal": 14,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_last",
+      "ordinal": 15,
+      "revision_ordinal": 4
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "Singapore",
+      "funding_organization": "Ministry of Education (MoE, Singapore)",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_related": [
+    {
+      "content_type": "other EM volume",
+      "db_id": "EMD-31806",
+      "db_name": "EMDB"
+    },
+    {
+      "content_type": "associated EM volume",
+      "db_id": "EMD-31810",
+      "db_name": "EMDB",
+      "details": "Telomeric Dinucleosome"
+    }
+  ],
+  "pdbx_database_status": {
+    "deposit_site": "PDBJ",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBJ",
+    "recvd_initial_deposition_date": "2021-08-24T00:00:00+0000",
+    "status_code": "REL",
+    "sgentry": "N"
+  },
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "visualanalysis,molprobity,validation-pack,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "N",
+    "report_creation_date": "2024-06-03T11:42:00+0000"
+  },
+  "pdbx_vrpt_summary_em": [
+    {
+      "atom_inclusion_all_atoms": 0.663,
+      "atom_inclusion_backbone": 0.701,
+      "author_provided_fsc_resolution_by_cutoff_halfbit": 3.92,
+      "author_provided_fsc_resolution_by_cutoff_onebit": 4.16,
+      "author_provided_fsc_resolution_by_cutoff_pt143": 3.86,
+      "author_provided_fsc_resolution_by_cutoff_pt333": 4.15,
+      "author_provided_fsc_resolution_by_cutoff_pt5": 4.36,
+      "author_provided_fsc_resolution_by_cutoff_threesigma": 3.68,
+      "calculated_fsc_resolution_by_cutoff_halfbit": 4.14,
+      "calculated_fsc_resolution_by_cutoff_onebit": 4.38,
+      "calculated_fsc_resolution_by_cutoff_pt143": 4.06,
+      "calculated_fsc_resolution_by_cutoff_pt333": 4.37,
+      "calculated_fsc_resolution_by_cutoff_pt5": 4.66,
+      "calculated_fsc_resolution_by_cutoff_threesigma": 3.64,
+      "contour_level_primary_map": 0.015,
+      "exp_method": "electron microscopy",
+      "qscore": 0.4
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_rmsz": 0.8,
+      "bonds_rmsz": 0.53,
+      "clashscore": 6.39,
+      "num_hreduce": 19677,
+      "num_angles_rmsz": 36741,
+      "num_bonds_rmsz": 25507,
+      "percent_ramachandran_outliers": 0.77,
+      "percent_rotamer_outliers": 14.23
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2021-08-24T00:00:00+0000",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2022-07-27T00:00:00+0000",
+    "major_revision": 1,
+    "minor_revision": 4,
+    "revision_date": "2024-06-12T00:00:00+0000",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "emdb_ids": [
+      "EMD-31810"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "entry_id": "7V96",
+    "model_ids": [
+      1
+    ],
+    "polymer_entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "pubmed_id": 36104563,
+    "rcsb_id": "7V96",
+    "related_emdb_ids": [
+      "EMD-31806"
+    ]
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 23968,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 2143,
+    "deposited_nonpolymer_entity_instance_count": 0,
+    "deposited_polymer_entity_instance_count": 18,
+    "deposited_polymer_monomer_count": 2422,
+    "deposited_solvent_atom_count": 0,
+    "deposited_unmodeled_polymer_monomer_count": 279,
+    "disulfide_bond_count": 0,
+    "entity_count": 6,
+    "experimental_method": "EM",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 378.43,
+    "na_polymer_entity_types": "Other",
+    "ndb_struct_conf_na_feature_combined": [
+      "a-form double helix",
+      "b-form double helix",
+      "double helix"
+    ],
+    "nonpolymer_entity_count": 0,
+    "polymer_composition": "protein/NA",
+    "polymer_entity_count": 6,
+    "polymer_entity_count_dna": 2,
+    "polymer_entity_count_rna": 0,
+    "polymer_entity_count_nucleic_acid": 2,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 4,
+    "polymer_entity_taxonomy_count": 6,
+    "polymer_molecular_weight_maximum": 87.47,
+    "polymer_molecular_weight_minimum": 11.15,
+    "polymer_monomer_count_maximum": 275,
+    "polymer_monomer_count_minimum": 99,
+    "resolution_combined": [
+      3.92
+    ],
+    "selected_polymer_entity_types": "Protein/NA",
+    "software_programs_combined": [
+      "PHENIX"
+    ],
+    "solvent_entity_count": 0,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10
+  },
+  "rcsb_external_references": [
+    {
+      "id": "EMD-31810",
+      "link": "https://www.emdataresource.org/EMD-31810",
+      "type": "EM DATA RESOURCE"
+    },
+    {
+      "id": "7V96",
+      "link": "https://nakb.org/atlas=7V96",
+      "type": "NAKB"
+    }
+  ],
+  "rcsb_primary_citation": {
+    "country": "UK",
+    "id": "primary",
+    "journal_abbrev": "Nature",
+    "journal_id_astm": "NATUAS",
+    "journal_id_csd": "0006",
+    "journal_id_issn": "1476-4687",
+    "journal_volume": "609",
+    "page_first": "1048",
+    "page_last": "1055",
+    "pdbx_database_id_doi": "10.1038/s41586-022-05236-5",
+    "pdbx_database_id_pub_med": 36104563,
+    "rcsb_orcididentifiers": [
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+    ],
+    "rcsb_authors": [
+      "Soman, A.",
+      "Wong, S.Y.",
+      "Korolev, N.",
+      "Surya, W.",
+      "Lattmann, S.",
+      "Vogirala, V.K.",
+      "Chen, Q.",
+      "Berezhnoy, N.V.",
+      "van Noort, J.",
+      "Rhodes, D.",
+      "Nordenskiold, L."
+    ],
+    "rcsb_journal_abbrev": "Nature",
+    "title": "Columnar structure of human telomeric chromatin.",
+    "year": 2022
+  },
+  "struct": {
+    "pdbx_caspflag": "N",
+    "title": "Telomeric Dinucleosome"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "DNA BINDING PROTEIN/DNA",
+    "text": "Telomere, Nucleosome, Chromatin, DNA BINDING PROTEIN, DNA BINDING PROTEIN-DNA complex"
+  },
+  "rcsb_id": "7V96"
+}

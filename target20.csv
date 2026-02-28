@@ -1,0 +1,23 @@
+The "Target 20" Orphan GPCR Library
+
+Receptor	PDB ID	DOI / Journal	Year	Key Biological Mystery
+GPR158	7XRA	10.1126/science.abl4732	2022	The "Depression" receptor; has a unique bacterial-like Cache domain.
+GPR151	7XW9	10.1038/s41421-022-00477-0	2022	Habenular receptor linked to nicotine addiction and pain.
+GPR101	8T9R	10.1038/s41586-024-07383-z	2024	Linked to X-linked gigantism; constitutively active (always "on").
+GPR21	8HIX	10.1186/s13619-022-00150-1	2023	Diabetes/obesity target; ECL2 loop blocks its own pocket.
+GPR52	6LI3	10.1038/s41586-020-2019-0	2020	Psychiatric target; a "self-activating" receptor with a built-in tether.
+GPR161	8SMV	10.1038/s41594-024-01221-8	2024	Sonic Hedgehog pathway regulator; structure shows sterol binding.
+GPR61	8G89	10.1126/science.ade3041	2023	Linked to obesity; shares a similar self-activation motif with GPR52.
+GPR139	7Z0E	10.1038/s41467-022-31149-z	2022	Metabolic sensor; high expression in the habenula.
+GPR35	8H9R	10.1126/science.abp9966	2022	IBD/Cancer target; structure solved with various mucosal ligands.
+GPR84	8I92	10.1038/s41586-023-06543-y	2023	Inflammation target; binds medium-chain fatty acids (MCFAs).
+GPR182	8X88	10.1038/s41586-024-07114-4	2024	Chemokine scavenger; binds ligands but does not signal traditionally.
+GPR133	7T0S	10.1038/s41586-021-04221-2	2022	Adhesion GPCR; activated by mechanical force (mechanosensing).
+GPR126	7W53	10.1126/science.abj5417	2022	Schwann cell development; mechanosensitive tethered activation.
+GPR110	7V68	10.1038/s41586-022-04583-7	2022	Synaptogenesis; binds to specific sugar (synaptamide) patterns.
+GPR1	8W11	10.1038/s41586-023-06670-6	2023	Chemerin receptor; critical for metabolic inflammation.
+GPR179	8I0U	10.1126/scisignal.add5502	2023	Night vision; interacts with Pikachurin to stabilize synapses.
+GPRC5A	8S8G	10.1126/science.adg6104	2023	Lung cancer target; Class C receptor with no VFT domain.
+GPR37	8J92	10.1126/science.ade3041	2023	Parkinson’s associated; structure reveals why it's hard to "deorphanize."
+GPR19	7Y67	10.1038/s41467-023-38011-w	2023	Circadian rhythm modulation; highly conserved across brain regions.
+GPR114	7XJR	10.1038/s41586-022-04575-7	2022	Adhesion GPCR; involved in immune cell degranulation.

@@ -1,0 +1,627 @@
+{
+  "audit_author": [
+    {
+      "identifier_orcid": "0000-0001-9195-1191",
+      "name": "Liu, H.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "name": "Zheng, Y.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "identifier_orcid": "0000-0002-3716-2922",
+      "name": "Wang, Y.",
+      "pdbx_ordinal": 3
+    },
+    {
+      "name": "Wang, Y.",
+      "pdbx_ordinal": 4
+    },
+    {
+      "name": "He, X.",
+      "pdbx_ordinal": 5
+    },
+    {
+      "name": "Xu, P.",
+      "pdbx_ordinal": 6
+    },
+    {
+      "name": "Huang, S.",
+      "pdbx_ordinal": 7
+    },
+    {
+      "name": "Yuan, Q.",
+      "pdbx_ordinal": 8
+    },
+    {
+      "name": "Zhang, X.",
+      "pdbx_ordinal": 9
+    },
+    {
+      "name": "Wang, S.",
+      "pdbx_ordinal": 10
+    },
+    {
+      "identifier_orcid": "0000-0002-6829-8144",
+      "name": "Xu, H.E.",
+      "pdbx_ordinal": 11
+    },
+    {
+      "identifier_orcid": "0000-0003-0719-3901",
+      "name": "Xu, F.",
+      "pdbx_ordinal": 12
+    }
+  ],
+  "citation": [
+    {
+      "country": "UK",
+      "id": "primary",
+      "journal_abbrev": "Nature",
+      "journal_id_astm": "NATUAS",
+      "journal_id_csd": "0006",
+      "journal_id_issn": "1476-4687",
+      "journal_volume": "624",
+      "page_first": "663",
+      "page_last": "671",
+      "pdbx_database_id_doi": "10.1038/s41586-023-06775-1",
+      "pdbx_database_id_pub_med": 37935377,
+      "rcsb_authors": [
+        "Liu, H.",
+        "Zheng, Y.",
+        "Wang, Y.",
+        "Wang, Y.",
+        "He, X.",
+        "Xu, P.",
+        "Huang, S.",
+        "Yuan, Q.",
+        "Zhang, X.",
+        "Wang, L.",
+        "Jiang, K.",
+        "Chen, H.",
+        "Li, Z.",
+        "Liu, W.",
+        "Wang, S.",
+        "Xu, H.E.",
+        "Xu, F."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "Nature",
+      "title": "Recognition of methamphetamine and other amines by trace amine receptor TAAR1.",
+      "year": 2023
+    }
+  ],
+  "database2": [
+    {
+      "database_code": "8W89",
+      "database_id": "PDB",
+      "pdbx_doi": "10.2210/pdb8w89/pdb",
+      "pdbx_database_accession": "pdb_00008w89"
+    },
+    {
+      "database_code": "D_1300040716",
+      "database_id": "WWPDB"
+    },
+    {
+      "database_code": "EMD-37349",
+      "database_id": "EMDB"
+    }
+  ],
+  "em3d_fitting": [
+    {
+      "id": "1"
+    }
+  ],
+  "em3d_reconstruction": [
+    {
+      "id": "1",
+      "image_processing_id": "1",
+      "num_particles": 87235,
+      "resolution": 3.0,
+      "resolution_method": "FSC 0.143 CUT-OFF",
+      "symmetry_type": "POINT"
+    }
+  ],
+  "em_ctf_correction": [
+    {
+      "em_image_processing_id": "1",
+      "id": "1",
+      "type": "NONE"
+    }
+  ],
+  "em_entity_assembly": [
+    {
+      "entity_id_list": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "id": "1",
+      "name": "Cryo-EM structure of the PEA-bound TAAR1-Gs complex",
+      "parent_id": 0,
+      "source": "MULTIPLE SOURCES",
+      "type": "COMPLEX"
+    }
+  ],
+  "em_experiment": {
+    "aggregation_state": "PARTICLE",
+    "entity_assembly_id": "1",
+    "id": "1",
+    "reconstruction_method": "SINGLE PARTICLE"
+  },
+  "em_image_recording": [
+    {
+      "avg_electron_dose_per_image": 60.0,
+      "film_or_detector_model": "GATAN K3 (6k x 4k)",
+      "id": "1",
+      "imaging_id": "1"
+    }
+  ],
+  "em_imaging": [
+    {
+      "accelerating_voltage": 300,
+      "electron_source": "FIELD EMISSION GUN",
+      "id": "1",
+      "illumination_mode": "FLOOD BEAM",
+      "microscope_model": "FEI TITAN KRIOS",
+      "mode": "DARK FIELD",
+      "nominal_defocus_max": 2000.0,
+      "nominal_defocus_min": 1000.0,
+      "specimen_id": "1"
+    }
+  ],
+  "em_software": [
+    {
+      "category": "PARTICLE SELECTION",
+      "id": "1",
+      "image_processing_id": "1"
+    },
+    {
+      "category": "IMAGE ACQUISITION",
+      "id": "2",
+      "imaging_id": "1"
+    },
+    {
+      "category": "MASKING",
+      "id": "3"
+    },
+    {
+      "category": "CTF CORRECTION",
+      "id": "4",
+      "image_processing_id": "1"
+    },
+    {
+      "category": "LAYERLINE INDEXING",
+      "id": "5"
+    },
+    {
+      "category": "DIFFRACTION INDEXING",
+      "id": "6"
+    },
+    {
+      "category": "MODEL FITTING",
+      "id": "7"
+    },
+    {
+      "category": "MODEL REFINEMENT",
+      "id": "8"
+    },
+    {
+      "category": "OTHER",
+      "id": "9"
+    },
+    {
+      "category": "INITIAL EULER ASSIGNMENT",
+      "id": "10",
+      "image_processing_id": "1"
+    },
+    {
+      "category": "FINAL EULER ASSIGNMENT",
+      "id": "11",
+      "image_processing_id": "1"
+    },
+    {
+      "category": "CLASSIFICATION",
+      "id": "12",
+      "image_processing_id": "1"
+    },
+    {
+      "category": "RECONSTRUCTION",
+      "id": "13",
+      "image_processing_id": "1"
+    },
+    {
+      "category": "VOLUME SELECTION",
+      "fitting_id": "1",
+      "id": "14",
+      "image_processing_id": "1",
+      "imaging_id": "1"
+    },
+    {
+      "category": "SERIES ALIGNMENT",
+      "fitting_id": "1",
+      "id": "15",
+      "image_processing_id": "1",
+      "imaging_id": "1"
+    },
+    {
+      "category": "MOLECULAR REPLACEMENT",
+      "fitting_id": "1",
+      "id": "16",
+      "image_processing_id": "1",
+      "imaging_id": "1"
+    },
+    {
+      "category": "LATTICE DISTORTION CORRECTION",
+      "fitting_id": "1",
+      "id": "17",
+      "image_processing_id": "1",
+      "imaging_id": "1"
+    },
+    {
+      "category": "SYMMETRY DETERMINATION",
+      "fitting_id": "1",
+      "id": "18",
+      "image_processing_id": "1",
+      "imaging_id": "1"
+    },
+    {
+      "category": "CRYSTALLOGRAPHY MERGING",
+      "fitting_id": "1",
+      "id": "19",
+      "image_processing_id": "1",
+      "imaging_id": "1"
+    }
+  ],
+  "em_specimen": [
+    {
+      "embedding_applied": "NO",
+      "experiment_id": "1",
+      "id": "1",
+      "shadowing_applied": "NO",
+      "staining_applied": "NO",
+      "vitrification_applied": "YES"
+    }
+  ],
+  "em_vitrification": [
+    {
+      "cryogen_name": "ETHANE",
+      "id": "1",
+      "specimen_id": "1"
+    }
+  ],
+  "entry": {
+    "id": "8W89"
+  },
+  "exptl": [
+    {
+      "method": "ELECTRON MICROSCOPY"
+    }
+  ],
+  "pdbx_audit_revision_category": [
+    {
+      "category": "citation",
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "citation_author",
+      "data_content_type": "Structure model",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "em_admin",
+      "data_content_type": "Structure model",
+      "ordinal": 3,
+      "revision_ordinal": 3
+    },
+    {
+      "category": "pdbx_entry_details",
+      "data_content_type": "Structure model",
+      "ordinal": 4,
+      "revision_ordinal": 3
+    },
+    {
+      "category": "pdbx_modification_feature",
+      "data_content_type": "Structure model",
+      "ordinal": 5,
+      "revision_ordinal": 3
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Data collection",
+      "ordinal": 2,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Structure summary",
+      "ordinal": 3,
+      "revision_ordinal": 3
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2023-11-22T00:00:00+0000"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 1,
+      "ordinal": 2,
+      "revision_date": "2024-01-03T00:00:00+0000"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 2,
+      "ordinal": 3,
+      "revision_date": "2024-11-06T00:00:00+0000"
+    }
+  ],
+  "pdbx_audit_revision_item": [
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_volume",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_first",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_last",
+      "ordinal": 3,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation_author.identifier_ORCID",
+      "ordinal": 4,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_em_admin.last_update",
+      "ordinal": 5,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_pdbx_entry_details.has_protein_modification",
+      "ordinal": 6,
+      "revision_ordinal": 3
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "China",
+      "funding_organization": "National Natural Science Foundation of China (NSFC)",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_related": [
+    {
+      "content_type": "associated EM volume",
+      "db_id": "EMD-37349",
+      "db_name": "EMDB",
+      "details": "Cryo-EM structure of the PEA-bound TAAR1-Gs complex"
+    }
+  ],
+  "pdbx_database_status": {
+    "deposit_site": "PDBJ",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBC",
+    "recvd_initial_deposition_date": "2023-09-01T00:00:00+0000",
+    "status_code": "REL",
+    "sgentry": "N"
+  },
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "visualanalysis,molprobity,validation-pack,mogul,buster-report,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2024-10-28T05:57:00+0000"
+  },
+  "pdbx_vrpt_summary_em": [
+    {
+      "exp_method": "electron microscopy"
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_rmsz": 0.53,
+      "bonds_rmsz": 0.34,
+      "clashscore": 4.78,
+      "num_hreduce": 8091,
+      "num_angles_rmsz": 11376,
+      "num_bonds_rmsz": 8399,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 1.35
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2023-09-01T00:00:00+0000",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2023-11-22T00:00:00+0000",
+    "major_revision": 1,
+    "minor_revision": 2,
+    "revision_date": "2024-11-06T00:00:00+0000",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "emdb_ids": [
+      "EMD-37349"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "entry_id": "8W89",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "6"
+    ],
+    "polymer_entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "pubmed_id": 37935377,
+    "rcsb_id": "8W89"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 8230,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 1043,
+    "deposited_nonpolymer_entity_instance_count": 1,
+    "deposited_polymer_entity_instance_count": 5,
+    "deposited_polymer_monomer_count": 1140,
+    "deposited_solvent_atom_count": 1,
+    "deposited_unmodeled_polymer_monomer_count": 97,
+    "disulfide_bond_count": 3,
+    "entity_count": 7,
+    "experimental_method": "EM",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 128.6,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 1,
+    "nonpolymer_molecular_weight_maximum": 0.12,
+    "nonpolymer_molecular_weight_minimum": 0.12,
+    "polymer_composition": "heteromeric protein",
+    "polymer_entity_count": 5,
+    "polymer_entity_count_dna": 0,
+    "polymer_entity_count_rna": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 5,
+    "polymer_entity_taxonomy_count": 5,
+    "polymer_molecular_weight_maximum": 39.13,
+    "polymer_molecular_weight_minimum": 7.86,
+    "polymer_monomer_count_maximum": 345,
+    "polymer_monomer_count_minimum": 71,
+    "resolution_combined": [
+      3.0
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10
+  },
+  "rcsb_external_references": [
+    {
+      "id": "EMD-37349",
+      "link": "https://www.emdataresource.org/EMD-37349",
+      "type": "EM DATA RESOURCE"
+    }
+  ],
+  "rcsb_primary_citation": {
+    "country": "UK",
+    "id": "primary",
+    "journal_abbrev": "Nature",
+    "journal_id_astm": "NATUAS",
+    "journal_id_csd": "0006",
+    "journal_id_issn": "1476-4687",
+    "journal_volume": "624",
+    "page_first": "663",
+    "page_last": "671",
+    "pdbx_database_id_doi": "10.1038/s41586-023-06775-1",
+    "pdbx_database_id_pub_med": 37935377,
+    "rcsb_orcididentifiers": [
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+    ],
+    "rcsb_authors": [
+      "Liu, H.",
+      "Zheng, Y.",
+      "Wang, Y.",
+      "Wang, Y.",
+      "He, X.",
+      "Xu, P.",
+      "Huang, S.",
+      "Yuan, Q.",
+      "Zhang, X.",
+      "Wang, L.",
+      "Jiang, K.",
+      "Chen, H.",
+      "Li, Z.",
+      "Liu, W.",
+      "Wang, S.",
+      "Xu, H.E.",
+      "Xu, F."
+    ],
+    "rcsb_journal_abbrev": "Nature",
+    "title": "Recognition of methamphetamine and other amines by trace amine receptor TAAR1.",
+    "year": 2023
+  },
+  "struct": {
+    "pdbx_caspflag": "N",
+    "title": "Cryo-EM structure of the PEA-bound TAAR1-Gs complex"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "MEMBRANE PROTEIN",
+    "text": "TAAR1, PEA, GPCR, MEMBRANE PROTEIN"
+  },
+  "rcsb_id": "8W89"
+}

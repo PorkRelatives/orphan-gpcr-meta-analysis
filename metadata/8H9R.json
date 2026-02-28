@@ -1,0 +1,709 @@
+{
+  "audit_author": [
+    {
+      "name": "Lai, Y.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "name": "Zhang, Y.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "name": "Liu, F.",
+      "pdbx_ordinal": 3
+    },
+    {
+      "name": "Gao, Y.",
+      "pdbx_ordinal": 4
+    },
+    {
+      "name": "Gong, H.",
+      "pdbx_ordinal": 5
+    },
+    {
+      "name": "Rao, Z.",
+      "pdbx_ordinal": 6
+    }
+  ],
+  "citation": [
+    {
+      "country": "US",
+      "id": "primary",
+      "journal_abbrev": "Mol.Cell",
+      "journal_id_astm": "MOCEFL",
+      "journal_id_csd": "2168",
+      "journal_id_issn": "1097-2765",
+      "journal_volume": "83",
+      "page_first": "2137",
+      "pdbx_database_id_doi": "10.1016/j.molcel.2023.04.029",
+      "pdbx_database_id_pub_med": 37244256,
+      "rcsb_authors": [
+        "Lai, Y.",
+        "Zhang, Y.",
+        "Zhou, S.",
+        "Xu, J.",
+        "Du, Z.",
+        "Feng, Z.",
+        "Yu, L.",
+        "Zhao, Z.",
+        "Wang, W.",
+        "Tang, Y.",
+        "Yang, X.",
+        "Guddat, L.W.",
+        "Liu, F.",
+        "Gao, Y.",
+        "Rao, Z.",
+        "Gong, H."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "Mol Cell",
+      "title": "Structure of the human ATP synthase.",
+      "year": 2023
+    }
+  ],
+  "database2": [
+    {
+      "database_code": "8H9R",
+      "database_id": "PDB",
+      "pdbx_doi": "10.2210/pdb8h9r/pdb",
+      "pdbx_database_accession": "pdb_00008h9r"
+    },
+    {
+      "database_code": "D_1300033013",
+      "database_id": "WWPDB"
+    },
+    {
+      "database_code": "EMD-34578",
+      "database_id": "EMDB"
+    }
+  ],
+  "em3d_fitting": [
+    {
+      "id": "1"
+    }
+  ],
+  "em3d_reconstruction": [
+    {
+      "id": "1",
+      "image_processing_id": "1",
+      "num_particles": 23272,
+      "resolution": 3.97,
+      "resolution_method": "FSC 0.143 CUT-OFF",
+      "symmetry_type": "POINT"
+    }
+  ],
+  "em_ctf_correction": [
+    {
+      "em_image_processing_id": "1",
+      "id": "1",
+      "type": "PHASE FLIPPING AND AMPLITUDE CORRECTION"
+    }
+  ],
+  "em_entity_assembly": [
+    {
+      "entity_id_list": [
+        "1",
+        "2",
+        "3"
+      ],
+      "id": "1",
+      "name": "Human ATP synthase",
+      "parent_id": 0,
+      "source": "NATURAL",
+      "type": "COMPLEX"
+    }
+  ],
+  "em_experiment": {
+    "aggregation_state": "PARTICLE",
+    "entity_assembly_id": "1",
+    "id": "1",
+    "reconstruction_method": "SINGLE PARTICLE"
+  },
+  "em_image_recording": [
+    {
+      "avg_electron_dose_per_image": 50.0,
+      "film_or_detector_model": "FEI FALCON IV (4k x 4k)",
+      "id": "1",
+      "imaging_id": "1"
+    }
+  ],
+  "em_imaging": [
+    {
+      "accelerating_voltage": 300,
+      "cryogen": "NITROGEN",
+      "electron_source": "FIELD EMISSION GUN",
+      "id": "1",
+      "illumination_mode": "FLOOD BEAM",
+      "microscope_model": "FEI TITAN KRIOS",
+      "mode": "BRIGHT FIELD",
+      "nominal_defocus_max": 2400.0,
+      "nominal_defocus_min": 1200.0,
+      "specimen_id": "1"
+    }
+  ],
+  "em_software": [
+    {
+      "category": "PARTICLE SELECTION",
+      "id": "1",
+      "image_processing_id": "1",
+      "name": "cryoSPARC"
+    },
+    {
+      "category": "IMAGE ACQUISITION",
+      "id": "2",
+      "imaging_id": "1"
+    },
+    {
+      "category": "MASKING",
+      "id": "3"
+    },
+    {
+      "category": "CTF CORRECTION",
+      "id": "4",
+      "image_processing_id": "1",
+      "name": "cryoSPARC"
+    },
+    {
+      "category": "LAYERLINE INDEXING",
+      "id": "5"
+    },
+    {
+      "category": "DIFFRACTION INDEXING",
+      "id": "6"
+    },
+    {
+      "category": "MODEL FITTING",
+      "id": "7"
+    },
+    {
+      "category": "MODEL REFINEMENT",
+      "id": "8",
+      "name": "PHENIX"
+    },
+    {
+      "category": "OTHER",
+      "id": "9"
+    },
+    {
+      "category": "INITIAL EULER ASSIGNMENT",
+      "id": "10",
+      "image_processing_id": "1",
+      "name": "cryoSPARC"
+    },
+    {
+      "category": "FINAL EULER ASSIGNMENT",
+      "id": "11",
+      "image_processing_id": "1",
+      "name": "cryoSPARC"
+    },
+    {
+      "category": "CLASSIFICATION",
+      "id": "12",
+      "image_processing_id": "1",
+      "name": "cryoSPARC"
+    },
+    {
+      "category": "RECONSTRUCTION",
+      "id": "13",
+      "image_processing_id": "1"
+    },
+    {
+      "category": "VOLUME SELECTION",
+      "fitting_id": "1",
+      "id": "14",
+      "image_processing_id": "1",
+      "imaging_id": "1"
+    },
+    {
+      "category": "SERIES ALIGNMENT",
+      "fitting_id": "1",
+      "id": "15",
+      "image_processing_id": "1",
+      "imaging_id": "1"
+    },
+    {
+      "category": "MOLECULAR REPLACEMENT",
+      "fitting_id": "1",
+      "id": "16",
+      "image_processing_id": "1",
+      "imaging_id": "1"
+    },
+    {
+      "category": "LATTICE DISTORTION CORRECTION",
+      "fitting_id": "1",
+      "id": "17",
+      "image_processing_id": "1",
+      "imaging_id": "1"
+    },
+    {
+      "category": "SYMMETRY DETERMINATION",
+      "fitting_id": "1",
+      "id": "18",
+      "image_processing_id": "1",
+      "imaging_id": "1"
+    },
+    {
+      "category": "CRYSTALLOGRAPHY MERGING",
+      "fitting_id": "1",
+      "id": "19",
+      "image_processing_id": "1",
+      "imaging_id": "1"
+    }
+  ],
+  "em_specimen": [
+    {
+      "embedding_applied": "NO",
+      "experiment_id": "1",
+      "id": "1",
+      "shadowing_applied": "NO",
+      "staining_applied": "NO",
+      "vitrification_applied": "YES"
+    }
+  ],
+  "em_vitrification": [
+    {
+      "cryogen_name": "ETHANE",
+      "id": "1",
+      "specimen_id": "1"
+    }
+  ],
+  "entry": {
+    "id": "8H9R"
+  },
+  "exptl": [
+    {
+      "method": "ELECTRON MICROSCOPY"
+    }
+  ],
+  "pdbx_audit_revision_category": [
+    {
+      "category": "citation",
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "revision_ordinal": 7
+    },
+    {
+      "category": "citation_author",
+      "data_content_type": "Structure model",
+      "ordinal": 2,
+      "revision_ordinal": 7
+    },
+    {
+      "category": "citation",
+      "data_content_type": "Structure model",
+      "ordinal": 3,
+      "revision_ordinal": 12
+    },
+    {
+      "category": "chem_comp_atom",
+      "data_content_type": "Structure model",
+      "ordinal": 4,
+      "revision_ordinal": 17
+    },
+    {
+      "category": "chem_comp_bond",
+      "data_content_type": "Structure model",
+      "ordinal": 5,
+      "revision_ordinal": 17
+    },
+    {
+      "category": "em_admin",
+      "data_content_type": "Structure model",
+      "ordinal": 6,
+      "revision_ordinal": 17
+    },
+    {
+      "category": "em_admin",
+      "data_content_type": "Structure model",
+      "ordinal": 7,
+      "revision_ordinal": 22
+    },
+    {
+      "category": "em_software",
+      "data_content_type": "Structure model",
+      "ordinal": 8,
+      "revision_ordinal": 22
+    },
+    {
+      "category": "pdbx_entry_details",
+      "data_content_type": "Structure model",
+      "ordinal": 9,
+      "revision_ordinal": 22
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 1,
+      "revision_ordinal": 7
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 2,
+      "revision_ordinal": 12
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Data collection",
+      "ordinal": 3,
+      "revision_ordinal": 17
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Data collection",
+      "ordinal": 4,
+      "revision_ordinal": 22
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Structure summary",
+      "ordinal": 5,
+      "revision_ordinal": 22
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2023-05-31T00:00:00+0000"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 1,
+      "ordinal": 7,
+      "revision_date": "2023-06-07T00:00:00+0000"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 2,
+      "ordinal": 12,
+      "revision_date": "2023-07-05T00:00:00+0000"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 3,
+      "ordinal": 17,
+      "revision_date": "2024-07-03T00:00:00+0000"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 4,
+      "ordinal": 22,
+      "revision_date": "2025-07-02T00:00:00+0000"
+    }
+  ],
+  "pdbx_audit_revision_item": [
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.pdbx_database_id_PubMed",
+      "ordinal": 1,
+      "revision_ordinal": 7
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.title",
+      "ordinal": 2,
+      "revision_ordinal": 7
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_volume",
+      "ordinal": 3,
+      "revision_ordinal": 12
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_first",
+      "ordinal": 4,
+      "revision_ordinal": 12
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_em_admin.last_update",
+      "ordinal": 5,
+      "revision_ordinal": 17
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_em_admin.last_update",
+      "ordinal": 6,
+      "revision_ordinal": 22
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_em_software.name",
+      "ordinal": 7,
+      "revision_ordinal": 22
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "China",
+      "funding_organization": "National Natural Science Foundation of China (NSFC)",
+      "grant_number": "81520108019",
+      "ordinal": 1
+    },
+    {
+      "country": "China",
+      "funding_organization": "National Natural Science Foundation of China (NSFC)",
+      "grant_number": "813300237",
+      "ordinal": 2
+    },
+    {
+      "country": "China",
+      "funding_organization": "National Natural Science Foundation of China (NSFC)",
+      "grant_number": "32100976",
+      "ordinal": 3
+    },
+    {
+      "country": "China",
+      "funding_organization": "National Natural Science Foundation of China (NSFC)",
+      "grant_number": "82222042",
+      "ordinal": 4
+    }
+  ],
+  "pdbx_database_related": [
+    {
+      "content_type": "associated EM volume",
+      "db_id": "EMD-34578",
+      "db_name": "EMDB",
+      "details": "Human ATP synthase peripheral stalk domain, state 3b"
+    }
+  ],
+  "pdbx_database_status": {
+    "deposit_site": "PDBJ",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBJ",
+    "recvd_initial_deposition_date": "2022-10-25T00:00:00+0000",
+    "status_code": "REL",
+    "sgentry": "N"
+  },
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "visualanalysis,molprobity,validation-pack,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "N",
+    "report_creation_date": "2025-06-26T12:35:00+0000"
+  },
+  "pdbx_vrpt_summary_em": [
+    {
+      "atom_inclusion_all_atoms": 0.5,
+      "atom_inclusion_backbone": 0.756,
+      "calculated_fsc_resolution_by_cutoff_halfbit": 8.25,
+      "calculated_fsc_resolution_by_cutoff_onebit": 9.55,
+      "calculated_fsc_resolution_by_cutoff_pt143": 7.86,
+      "calculated_fsc_resolution_by_cutoff_pt333": 9.41,
+      "calculated_fsc_resolution_by_cutoff_pt5": 11.43,
+      "calculated_fsc_resolution_by_cutoff_threesigma": 5.61,
+      "contour_level_primary_map": 0.09,
+      "exp_method": "electron microscopy",
+      "qscore": 0.364
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_rmsz": 0.51,
+      "bonds_rmsz": 0.32,
+      "clashscore": 16.41,
+      "num_hreduce": 3323,
+      "num_angles_rmsz": 4672,
+      "num_bonds_rmsz": 3456,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.0
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2022-10-25T00:00:00+0000",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2023-05-31T00:00:00+0000",
+    "major_revision": 1,
+    "minor_revision": 4,
+    "revision_date": "2025-07-02T00:00:00+0000",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "emdb_ids": [
+      "EMD-34578"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3"
+    ],
+    "entry_id": "8H9R",
+    "model_ids": [
+      1
+    ],
+    "polymer_entity_ids": [
+      "1",
+      "2",
+      "3"
+    ],
+    "pubmed_id": 37244256,
+    "rcsb_id": "8H9R"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 1,
+    "deposited_atom_count": 3381,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 421,
+    "deposited_nonpolymer_entity_instance_count": 0,
+    "deposited_polymer_entity_instance_count": 3,
+    "deposited_polymer_monomer_count": 482,
+    "deposited_solvent_atom_count": 0,
+    "deposited_unmodeled_polymer_monomer_count": 61,
+    "disulfide_bond_count": 0,
+    "entity_count": 3,
+    "experimental_method": "EM",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 55.65,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 0,
+    "polymer_composition": "heteromeric protein",
+    "polymer_entity_count": 3,
+    "polymer_entity_count_dna": 0,
+    "polymer_entity_count_rna": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 3,
+    "polymer_entity_taxonomy_count": 3,
+    "polymer_molecular_weight_maximum": 24.66,
+    "polymer_molecular_weight_minimum": 12.61,
+    "polymer_monomer_count_maximum": 214,
+    "polymer_monomer_count_minimum": 108,
+    "resolution_combined": [
+      3.97
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "CRYOSPARC",
+      "PHENIX"
+    ],
+    "solvent_entity_count": 0,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10
+  },
+  "rcsb_external_references": [
+    {
+      "id": "EMD-34578",
+      "link": "https://www.emdataresource.org/EMD-34578",
+      "type": "EM DATA RESOURCE"
+    }
+  ],
+  "rcsb_primary_citation": {
+    "country": "US",
+    "id": "primary",
+    "journal_abbrev": "Mol.Cell",
+    "journal_id_astm": "MOCEFL",
+    "journal_id_csd": "2168",
+    "journal_id_issn": "1097-2765",
+    "journal_volume": "83",
+    "page_first": "2137",
+    "pdbx_database_id_doi": "10.1016/j.molcel.2023.04.029",
+    "pdbx_database_id_pub_med": 37244256,
+    "rcsb_orcididentifiers": [
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+    ],
+    "rcsb_authors": [
+      "Lai, Y.",
+      "Zhang, Y.",
+      "Zhou, S.",
+      "Xu, J.",
+      "Du, Z.",
+      "Feng, Z.",
+      "Yu, L.",
+      "Zhao, Z.",
+      "Wang, W.",
+      "Tang, Y.",
+      "Yang, X.",
+      "Guddat, L.W.",
+      "Liu, F.",
+      "Gao, Y.",
+      "Rao, Z.",
+      "Gong, H."
+    ],
+    "rcsb_journal_abbrev": "Mol Cell",
+    "title": "Structure of the human ATP synthase.",
+    "year": 2023
+  },
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.006,
+      "number": 3456,
+      "pdbx_refine_id": "ELECTRON MICROSCOPY",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 0.792,
+      "number": 4674,
+      "pdbx_refine_id": "ELECTRON MICROSCOPY",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 14.751,
+      "number": 2113,
+      "pdbx_refine_id": "ELECTRON MICROSCOPY",
+      "type": "f_dihedral_angle_d"
+    },
+    {
+      "dev_ideal": 0.046,
+      "number": 508,
+      "pdbx_refine_id": "ELECTRON MICROSCOPY",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.005,
+      "number": 603,
+      "pdbx_refine_id": "ELECTRON MICROSCOPY",
+      "type": "f_plane_restr"
+    }
+  ],
+  "struct": {
+    "pdbx_caspflag": "N",
+    "title": "Human ATP synthase state 3b subregion 2"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "MEMBRANE PROTEIN",
+    "text": "MEMBRANE PROTEIN"
+  },
+  "rcsb_id": "8H9R"
+}

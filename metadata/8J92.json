@@ -1,0 +1,786 @@
+{
+  "audit_author": [
+    {
+      "name": "Osakabe, A.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "name": "Takizawa, Y.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "name": "Horikoshi, N.",
+      "pdbx_ordinal": 3
+    },
+    {
+      "name": "Hatazawa, S.",
+      "pdbx_ordinal": 4
+    },
+    {
+      "name": "Berger, F.",
+      "pdbx_ordinal": 5
+    },
+    {
+      "name": "Kurumizaka, H.",
+      "pdbx_ordinal": 6
+    },
+    {
+      "name": "Kakutani, T.",
+      "pdbx_ordinal": 7
+    }
+  ],
+  "citation": [
+    {
+      "country": "UK",
+      "id": "primary",
+      "journal_abbrev": "Nat Commun",
+      "journal_id_issn": "2041-1723",
+      "journal_volume": "15",
+      "page_first": "5187",
+      "page_last": "5187",
+      "pdbx_database_id_doi": "10.1038/s41467-024-49465-w",
+      "pdbx_database_id_pub_med": 38992002,
+      "rcsb_authors": [
+        "Osakabe, A.",
+        "Takizawa, Y.",
+        "Horikoshi, N.",
+        "Hatazawa, S.",
+        "Negishi, L.",
+        "Sato, S.",
+        "Berger, F.",
+        "Kakutani, T.",
+        "Kurumizaka, H."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "Nat Commun",
+      "title": "Molecular and structural basis of the chromatin remodeling activity by Arabidopsis DDM1.",
+      "year": 2024
+    }
+  ],
+  "database2": [
+    {
+      "database_code": "8J92",
+      "database_id": "PDB",
+      "pdbx_doi": "10.2210/pdb8j92/pdb",
+      "pdbx_database_accession": "pdb_00008j92"
+    },
+    {
+      "database_code": "D_1300037423",
+      "database_id": "WWPDB"
+    },
+    {
+      "database_code": "EMD-36085",
+      "database_id": "EMDB"
+    }
+  ],
+  "em3d_fitting": [
+    {
+      "id": "1"
+    }
+  ],
+  "em3d_reconstruction": [
+    {
+      "id": "1",
+      "image_processing_id": "1",
+      "num_particles": 196430,
+      "resolution": 2.9,
+      "resolution_method": "FSC 0.143 CUT-OFF",
+      "symmetry_type": "POINT"
+    }
+  ],
+  "em_ctf_correction": [
+    {
+      "em_image_processing_id": "1",
+      "id": "1",
+      "type": "PHASE FLIPPING AND AMPLITUDE CORRECTION"
+    }
+  ],
+  "em_entity_assembly": [
+    {
+      "entity_id_list": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "id": "1",
+      "name": "Nucleosome containing Arabidopsis thaliana H2A.W",
+      "parent_id": 0,
+      "source": "RECOMBINANT",
+      "type": "COMPLEX"
+    },
+    {
+      "entity_id_list": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "id": "2",
+      "name": "Nucleosome",
+      "parent_id": 1,
+      "source": "RECOMBINANT",
+      "type": "COMPLEX"
+    },
+    {
+      "entity_id_list": [
+        "5",
+        "6"
+      ],
+      "id": "3",
+      "name": "DNA",
+      "parent_id": 1,
+      "source": "RECOMBINANT",
+      "type": "COMPLEX"
+    }
+  ],
+  "em_experiment": {
+    "aggregation_state": "PARTICLE",
+    "entity_assembly_id": "1",
+    "id": "1",
+    "reconstruction_method": "SINGLE PARTICLE"
+  },
+  "em_image_recording": [
+    {
+      "avg_electron_dose_per_image": 59.1,
+      "film_or_detector_model": "GATAN K3 BIOQUANTUM (6k x 4k)",
+      "id": "1",
+      "imaging_id": "1"
+    }
+  ],
+  "em_imaging": [
+    {
+      "accelerating_voltage": 300,
+      "electron_source": "FIELD EMISSION GUN",
+      "id": "1",
+      "illumination_mode": "FLOOD BEAM",
+      "microscope_model": "FEI TITAN KRIOS",
+      "mode": "BRIGHT FIELD",
+      "nominal_defocus_max": 25000.0,
+      "nominal_defocus_min": 10000.0,
+      "specimen_holder_model": "FEI TITAN KRIOS AUTOGRID HOLDER",
+      "specimen_id": "1"
+    }
+  ],
+  "em_software": [
+    {
+      "category": "PARTICLE SELECTION",
+      "id": "1",
+      "image_processing_id": "1"
+    },
+    {
+      "category": "IMAGE ACQUISITION",
+      "id": "2",
+      "imaging_id": "1"
+    },
+    {
+      "category": "MASKING",
+      "id": "3"
+    },
+    {
+      "category": "CTF CORRECTION",
+      "id": "4",
+      "image_processing_id": "1",
+      "name": "CTFFIND",
+      "version": "4.1"
+    },
+    {
+      "category": "LAYERLINE INDEXING",
+      "id": "5"
+    },
+    {
+      "category": "DIFFRACTION INDEXING",
+      "id": "6"
+    },
+    {
+      "category": "MODEL FITTING",
+      "fitting_id": "1",
+      "id": "7"
+    },
+    {
+      "category": "OTHER",
+      "id": "8"
+    },
+    {
+      "category": "MODEL REFINEMENT",
+      "fitting_id": "1",
+      "id": "9",
+      "name": "PHENIX"
+    },
+    {
+      "category": "INITIAL EULER ASSIGNMENT",
+      "id": "10",
+      "image_processing_id": "1",
+      "name": "RELION",
+      "version": "4.0"
+    },
+    {
+      "category": "FINAL EULER ASSIGNMENT",
+      "id": "11",
+      "image_processing_id": "1",
+      "name": "RELION",
+      "version": "4.0"
+    },
+    {
+      "category": "CLASSIFICATION",
+      "id": "12",
+      "image_processing_id": "1"
+    },
+    {
+      "category": "RECONSTRUCTION",
+      "id": "13",
+      "image_processing_id": "1"
+    },
+    {
+      "category": "VOLUME SELECTION",
+      "fitting_id": "1",
+      "id": "14",
+      "image_processing_id": "1",
+      "imaging_id": "1"
+    },
+    {
+      "category": "SERIES ALIGNMENT",
+      "fitting_id": "1",
+      "id": "15",
+      "image_processing_id": "1",
+      "imaging_id": "1"
+    },
+    {
+      "category": "MOLECULAR REPLACEMENT",
+      "fitting_id": "1",
+      "id": "16",
+      "image_processing_id": "1",
+      "imaging_id": "1"
+    },
+    {
+      "category": "LATTICE DISTORTION CORRECTION",
+      "fitting_id": "1",
+      "id": "17",
+      "image_processing_id": "1",
+      "imaging_id": "1"
+    },
+    {
+      "category": "SYMMETRY DETERMINATION",
+      "fitting_id": "1",
+      "id": "18",
+      "image_processing_id": "1",
+      "imaging_id": "1"
+    },
+    {
+      "category": "CRYSTALLOGRAPHY MERGING",
+      "fitting_id": "1",
+      "id": "19",
+      "image_processing_id": "1",
+      "imaging_id": "1"
+    }
+  ],
+  "em_specimen": [
+    {
+      "embedding_applied": "NO",
+      "experiment_id": "1",
+      "id": "1",
+      "shadowing_applied": "NO",
+      "staining_applied": "NO",
+      "vitrification_applied": "YES"
+    }
+  ],
+  "em_vitrification": [
+    {
+      "cryogen_name": "ETHANE",
+      "id": "1",
+      "specimen_id": "1"
+    }
+  ],
+  "entry": {
+    "id": "8J92"
+  },
+  "exptl": [
+    {
+      "method": "ELECTRON MICROSCOPY"
+    }
+  ],
+  "pdbx_audit_revision_category": [
+    {
+      "category": "citation",
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "revision_ordinal": 9
+    },
+    {
+      "category": "citation_author",
+      "data_content_type": "Structure model",
+      "ordinal": 2,
+      "revision_ordinal": 9
+    },
+    {
+      "category": "em_admin",
+      "data_content_type": "Structure model",
+      "ordinal": 3,
+      "revision_ordinal": 9
+    },
+    {
+      "category": "em_admin",
+      "data_content_type": "Structure model",
+      "ordinal": 4,
+      "revision_ordinal": 16
+    },
+    {
+      "category": "em_software",
+      "data_content_type": "Structure model",
+      "ordinal": 5,
+      "revision_ordinal": 16
+    },
+    {
+      "category": "pdbx_entry_details",
+      "data_content_type": "Structure model",
+      "ordinal": 6,
+      "revision_ordinal": 16
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Data collection",
+      "ordinal": 1,
+      "revision_ordinal": 9
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 2,
+      "revision_ordinal": 9
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Data collection",
+      "ordinal": 3,
+      "revision_ordinal": 16
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Structure summary",
+      "ordinal": 4,
+      "revision_ordinal": 16
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2024-07-03T00:00:00+0000"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 1,
+      "ordinal": 9,
+      "revision_date": "2024-07-24T00:00:00+0000"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 2,
+      "ordinal": 16,
+      "revision_date": "2025-07-02T00:00:00+0000"
+    }
+  ],
+  "pdbx_audit_revision_item": [
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_volume",
+      "ordinal": 1,
+      "revision_ordinal": 9
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_first",
+      "ordinal": 2,
+      "revision_ordinal": 9
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_last",
+      "ordinal": 3,
+      "revision_ordinal": 9
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.pdbx_database_id_PubMed",
+      "ordinal": 4,
+      "revision_ordinal": 9
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.title",
+      "ordinal": 5,
+      "revision_ordinal": 9
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation_author.name",
+      "ordinal": 6,
+      "revision_ordinal": 9
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_em_admin.last_update",
+      "ordinal": 7,
+      "revision_ordinal": 9
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_em_admin.last_update",
+      "ordinal": 8,
+      "revision_ordinal": 16
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_em_software.name",
+      "ordinal": 9,
+      "revision_ordinal": 16
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "Japan",
+      "funding_organization": "Japan Society for the Promotion of Science (JSPS)",
+      "grant_number": "JP21K20628",
+      "ordinal": 1
+    },
+    {
+      "country": "Japan",
+      "funding_organization": "Japan Society for the Promotion of Science (JSPS)",
+      "grant_number": "JP22H05172",
+      "ordinal": 2
+    },
+    {
+      "country": "Japan",
+      "funding_organization": "Japan Society for the Promotion of Science (JSPS)",
+      "grant_number": "JP22H05178",
+      "ordinal": 3
+    },
+    {
+      "country": "Japan",
+      "funding_organization": "Japan Science and Technology",
+      "grant_number": "JPMJPR20K3",
+      "ordinal": 4
+    },
+    {
+      "country": "Japan",
+      "funding_organization": "Japan Society for the Promotion of Science (JSPS)",
+      "grant_number": "JP22K06098",
+      "ordinal": 5
+    },
+    {
+      "country": "Japan",
+      "funding_organization": "Japan Society for the Promotion of Science (JSPS)",
+      "grant_number": "JP18H05534",
+      "ordinal": 6
+    },
+    {
+      "country": "Japan",
+      "funding_organization": "Japan Society for the Promotion of Science (JSPS)",
+      "grant_number": "JP20H00449",
+      "ordinal": 7
+    },
+    {
+      "country": "Japan",
+      "funding_organization": "Japan Agency for Medical Research and Development (AMED)",
+      "grant_number": "JP22ama121009",
+      "ordinal": 8
+    },
+    {
+      "country": "Japan",
+      "funding_organization": "Japan Science and Technology",
+      "grant_number": "JPMJER1901",
+      "ordinal": 9
+    },
+    {
+      "country": "Japan",
+      "funding_organization": "Japan Society for the Promotion of Science (JSPS)",
+      "grant_number": "21H04977",
+      "ordinal": 10
+    },
+    {
+      "country": "Japan",
+      "funding_organization": "Japan Society for the Promotion of Science (JSPS)",
+      "grant_number": "23H00365",
+      "ordinal": 11
+    },
+    {
+      "country": "Austria",
+      "funding_organization": "Austrian Science Fund",
+      "grant_number": "P33380",
+      "ordinal": 12
+    },
+    {
+      "country": "Austria",
+      "funding_organization": "Austrian Science Fund",
+      "grant_number": "P32054",
+      "ordinal": 13
+    }
+  ],
+  "pdbx_database_related": [
+    {
+      "content_type": "other EM volume",
+      "db_id": "EMD-36083",
+      "db_name": "EMDB",
+      "details": "DDM1-nucleosome complex"
+    },
+    {
+      "content_type": "other EM volume",
+      "db_id": "EMD-36084",
+      "db_name": "EMDB",
+      "details": "Nucleosome containing Arabidopsis thaliana histones"
+    },
+    {
+      "content_type": "associated EM volume",
+      "db_id": "EMD-36085",
+      "db_name": "EMDB",
+      "details": "Cryo-EM structure of nucleosome containing  Arabidopsis thaliana H2A.W"
+    }
+  ],
+  "pdbx_database_status": {
+    "deposit_site": "PDBJ",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBJ",
+    "recvd_initial_deposition_date": "2023-05-02T00:00:00+0000",
+    "status_code": "REL",
+    "sgentry": "N"
+  },
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "visualanalysis,molprobity,validation-pack,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "N",
+    "report_creation_date": "2025-06-26T00:51:00+0000"
+  },
+  "pdbx_vrpt_summary_em": [
+    {
+      "atom_inclusion_all_atoms": 0.72,
+      "atom_inclusion_backbone": 0.747,
+      "author_provided_fsc_resolution_by_cutoff_halfbit": 2.97,
+      "author_provided_fsc_resolution_by_cutoff_onebit": 3.1,
+      "author_provided_fsc_resolution_by_cutoff_pt143": 2.91,
+      "author_provided_fsc_resolution_by_cutoff_pt333": 3.1,
+      "author_provided_fsc_resolution_by_cutoff_pt5": 3.23,
+      "author_provided_fsc_resolution_by_cutoff_threesigma": 2.5,
+      "calculated_fsc_resolution_by_cutoff_halfbit": 3.28,
+      "calculated_fsc_resolution_by_cutoff_onebit": 3.55,
+      "calculated_fsc_resolution_by_cutoff_pt143": 3.23,
+      "calculated_fsc_resolution_by_cutoff_pt333": 3.54,
+      "calculated_fsc_resolution_by_cutoff_pt5": 3.88,
+      "calculated_fsc_resolution_by_cutoff_threesigma": 2.87,
+      "contour_level_primary_map": 0.02,
+      "exp_method": "electron microscopy",
+      "qscore": 0.53
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_rmsz": 0.36,
+      "bonds_rmsz": 0.2,
+      "clashscore": 7.82,
+      "num_hreduce": 9598,
+      "num_angles_rmsz": 18588,
+      "num_bonds_rmsz": 12827,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.0
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2023-05-02T00:00:00+0000",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2024-07-03T00:00:00+0000",
+    "major_revision": 1,
+    "minor_revision": 2,
+    "revision_date": "2025-07-02T00:00:00+0000",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "emdb_ids": [
+      "EMD-36085"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "entry_id": "8J92",
+    "model_ids": [
+      1
+    ],
+    "polymer_entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "pubmed_id": 38992002,
+    "rcsb_id": "8J92",
+    "related_emdb_ids": [
+      "EMD-36083",
+      "EMD-36084"
+    ]
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 12003,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 1047,
+    "deposited_nonpolymer_entity_instance_count": 0,
+    "deposited_polymer_entity_instance_count": 10,
+    "deposited_polymer_monomer_count": 1440,
+    "deposited_solvent_atom_count": 0,
+    "deposited_unmodeled_polymer_monomer_count": 393,
+    "disulfide_bond_count": 0,
+    "entity_count": 6,
+    "experimental_method": "EM",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 225.02,
+    "na_polymer_entity_types": "Other",
+    "ndb_struct_conf_na_feature_combined": [
+      "b-form double helix",
+      "double helix"
+    ],
+    "nonpolymer_entity_count": 0,
+    "polymer_composition": "protein/NA",
+    "polymer_entity_count": 6,
+    "polymer_entity_count_dna": 2,
+    "polymer_entity_count_rna": 0,
+    "polymer_entity_count_nucleic_acid": 2,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 4,
+    "polymer_entity_taxonomy_count": 6,
+    "polymer_molecular_weight_maximum": 52.42,
+    "polymer_molecular_weight_minimum": 11.72,
+    "polymer_monomer_count_maximum": 169,
+    "polymer_monomer_count_minimum": 106,
+    "resolution_combined": [
+      2.9
+    ],
+    "selected_polymer_entity_types": "Protein/NA",
+    "software_programs_combined": [
+      "CTFFIND",
+      "PHENIX",
+      "RELION"
+    ],
+    "solvent_entity_count": 0,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10
+  },
+  "rcsb_external_references": [
+    {
+      "id": "EMD-36085",
+      "link": "https://www.emdataresource.org/EMD-36085",
+      "type": "EM DATA RESOURCE"
+    },
+    {
+      "id": "8J92",
+      "link": "https://nakb.org/atlas=8J92",
+      "type": "NAKB"
+    }
+  ],
+  "rcsb_primary_citation": {
+    "country": "UK",
+    "id": "primary",
+    "journal_abbrev": "Nat Commun",
+    "journal_id_issn": "2041-1723",
+    "journal_volume": "15",
+    "page_first": "5187",
+    "page_last": "5187",
+    "pdbx_database_id_doi": "10.1038/s41467-024-49465-w",
+    "pdbx_database_id_pub_med": 38992002,
+    "rcsb_orcididentifiers": [
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+    ],
+    "rcsb_authors": [
+      "Osakabe, A.",
+      "Takizawa, Y.",
+      "Horikoshi, N.",
+      "Hatazawa, S.",
+      "Negishi, L.",
+      "Sato, S.",
+      "Berger, F.",
+      "Kakutani, T.",
+      "Kurumizaka, H."
+    ],
+    "rcsb_journal_abbrev": "Nat Commun",
+    "title": "Molecular and structural basis of the chromatin remodeling activity by Arabidopsis DDM1.",
+    "year": 2024
+  },
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.004,
+      "number": 12825,
+      "pdbx_refine_id": "ELECTRON MICROSCOPY",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 0.561,
+      "number": 18586,
+      "pdbx_refine_id": "ELECTRON MICROSCOPY",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 31.764,
+      "number": 3807,
+      "pdbx_refine_id": "ELECTRON MICROSCOPY",
+      "type": "f_dihedral_angle_d"
+    },
+    {
+      "dev_ideal": 0.035,
+      "number": 2121,
+      "pdbx_refine_id": "ELECTRON MICROSCOPY",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.004,
+      "number": 1312,
+      "pdbx_refine_id": "ELECTRON MICROSCOPY",
+      "type": "f_plane_restr"
+    }
+  ],
+  "struct": {
+    "pdbx_caspflag": "N",
+    "title": "Cryo-EM structure of nucleosome containing Arabidopsis thaliana H2A.W"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "NUCLEAR PROTEIN",
+    "text": "Chromatin, Epigenetics, Histon variant, chromatin remodeler, NUCLEAR PROTEIN"
+  },
+  "rcsb_id": "8J92"
+}

@@ -1,0 +1,32 @@
+name: orphan-gpcr-analysis
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  # Base Environment - Let conda choose the best Python 3.x
+  - python>=3.10
+  - pip
+
+  # Core Analysis & Visualization with tested versions
+  - pandas=2.2.2
+  - scikit-learn=1.5.0
+  - matplotlib=3.8.4
+  - umap-learn=0.5.6
+  - pynndescent=0.5.11
+
+  # Jupyter and Notebook Handling
+  - nbformat=5.10.4
+  - jupyterlab=4.2.1
+
+  # Bioinformatics Tools - Let conda handle sub-dependencies
+  - apbs
+  - pdb2pqr
+  - biopython
+
+  # CPU-version of PyTorch for local environment
+  - pytorch::pytorch
+  - pytorch::cpuonly
+
+  - pip:
+    - fair-esm==2.0.0

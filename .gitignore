@@ -1,0 +1,17 @@
+# Ignore large data files and outputs
+*.fasta
+*.gz
+*.pt
+*.index
+
+# Ignore Python virtual environments
+/orphan-gpcr-analysis/
+
+# Ignore OS-specific files
+.DS_Store
+
+# Ignore results directory (we only care about the code to generate them)
+/results/
+
+# Ignore __pycache__ directories
+__pycache__/

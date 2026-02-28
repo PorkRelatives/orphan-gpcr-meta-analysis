@@ -1,0 +1,629 @@
+{
+  "audit_author": [
+    {
+      "name": "Li, M.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "name": "Wang, N.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "name": "Xu, F.",
+      "pdbx_ordinal": 3
+    },
+    {
+      "name": "Wu, J.",
+      "pdbx_ordinal": 4
+    },
+    {
+      "name": "Lei, M.",
+      "pdbx_ordinal": 5
+    }
+  ],
+  "citation": [
+    {
+      "country": "UK",
+      "id": "primary",
+      "journal_abbrev": "Nature",
+      "journal_id_astm": "NATUAS",
+      "journal_id_csd": "0006",
+      "journal_id_issn": "1476-4687",
+      "journal_volume": "579",
+      "page_first": "152",
+      "page_last": "157",
+      "pdbx_database_id_doi": "10.1038/s41586-020-2019-0",
+      "pdbx_database_id_pub_med": 32076264,
+      "rcsb_authors": [
+        "Lin, X.",
+        "Li, M.",
+        "Wang, N.",
+        "Wu, Y.",
+        "Luo, Z.",
+        "Guo, S.",
+        "Han, G.W.",
+        "Li, S.",
+        "Yue, Y.",
+        "Wei, X.",
+        "Xie, X.",
+        "Chen, Y.",
+        "Zhao, S.",
+        "Wu, J.",
+        "Lei, M.",
+        "Xu, F."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "Nature",
+      "title": "Structural basis of ligand recognition and self-activation of orphan GPR52.",
+      "year": 2020
+    }
+  ],
+  "database2": [
+    {
+      "database_code": "6LI3",
+      "database_id": "PDB",
+      "pdbx_doi": "10.2210/pdb6li3/pdb",
+      "pdbx_database_accession": "pdb_00006li3"
+    },
+    {
+      "database_code": "D_1300014783",
+      "database_id": "WWPDB"
+    },
+    {
+      "database_code": "EMD-0902",
+      "database_id": "EMDB"
+    }
+  ],
+  "em3d_fitting": [
+    {
+      "id": "1"
+    }
+  ],
+  "em3d_reconstruction": [
+    {
+      "id": "1",
+      "image_processing_id": "1",
+      "num_particles": 651465,
+      "resolution": 3.32,
+      "resolution_method": "FSC 0.143 CUT-OFF",
+      "symmetry_type": "POINT"
+    }
+  ],
+  "em_ctf_correction": [
+    {
+      "em_image_processing_id": "1",
+      "id": "1",
+      "type": "PHASE FLIPPING AND AMPLITUDE CORRECTION"
+    }
+  ],
+  "em_entity_assembly": [
+    {
+      "entity_id_list": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "id": "1",
+      "name": "GPR52-miniGs-NB35",
+      "parent_id": 0,
+      "source": "MULTIPLE SOURCES",
+      "type": "COMPLEX"
+    },
+    {
+      "entity_id_list": [
+        "1",
+        "3",
+        "4"
+      ],
+      "id": "2",
+      "name": "GPR52-GsBeta-GsGamma",
+      "parent_id": 1,
+      "source": "RECOMBINANT",
+      "type": "COMPLEX"
+    },
+    {
+      "entity_id_list": [
+        "2",
+        "5"
+      ],
+      "id": "3",
+      "name": "GsAlpha-NB35",
+      "parent_id": 1,
+      "source": "RECOMBINANT",
+      "type": "COMPLEX"
+    }
+  ],
+  "em_experiment": {
+    "aggregation_state": "PARTICLE",
+    "entity_assembly_id": "1",
+    "id": "1",
+    "reconstruction_method": "SINGLE PARTICLE"
+  },
+  "em_image_recording": [
+    {
+      "avg_electron_dose_per_image": 40.0,
+      "film_or_detector_model": "FEI FALCON III (4k x 4k)",
+      "id": "1",
+      "imaging_id": "1"
+    }
+  ],
+  "em_imaging": [
+    {
+      "accelerating_voltage": 300,
+      "electron_source": "FIELD EMISSION GUN",
+      "id": "1",
+      "illumination_mode": "FLOOD BEAM",
+      "microscope_model": "FEI TITAN KRIOS",
+      "mode": "BRIGHT FIELD",
+      "specimen_id": "1"
+    }
+  ],
+  "em_software": [
+    {
+      "category": "CRYSTALLOGRAPHY MERGING",
+      "fitting_id": "1",
+      "id": "1",
+      "image_processing_id": "1",
+      "imaging_id": "1"
+    },
+    {
+      "category": "IMAGE ACQUISITION",
+      "id": "2",
+      "imaging_id": "1"
+    },
+    {
+      "category": "MASKING",
+      "id": "3"
+    },
+    {
+      "category": "CTF CORRECTION",
+      "id": "4",
+      "image_processing_id": "1"
+    },
+    {
+      "category": "LAYERLINE INDEXING",
+      "id": "5"
+    },
+    {
+      "category": "DIFFRACTION INDEXING",
+      "id": "6"
+    },
+    {
+      "category": "MODEL FITTING",
+      "id": "7"
+    },
+    {
+      "category": "MODEL REFINEMENT",
+      "id": "8"
+    },
+    {
+      "category": "OTHER",
+      "id": "9"
+    },
+    {
+      "category": "INITIAL EULER ASSIGNMENT",
+      "id": "10",
+      "image_processing_id": "1"
+    },
+    {
+      "category": "FINAL EULER ASSIGNMENT",
+      "id": "11",
+      "image_processing_id": "1"
+    },
+    {
+      "category": "CLASSIFICATION",
+      "id": "12",
+      "image_processing_id": "1"
+    },
+    {
+      "category": "RECONSTRUCTION",
+      "id": "13",
+      "image_processing_id": "1"
+    }
+  ],
+  "em_specimen": [
+    {
+      "embedding_applied": "NO",
+      "experiment_id": "1",
+      "id": "1",
+      "shadowing_applied": "NO",
+      "staining_applied": "NO",
+      "vitrification_applied": "YES"
+    }
+  ],
+  "em_vitrification": [
+    {
+      "cryogen_name": "ETHANE",
+      "id": "1",
+      "specimen_id": "1"
+    }
+  ],
+  "entry": {
+    "id": "6LI3"
+  },
+  "exptl": [
+    {
+      "method": "ELECTRON MICROSCOPY"
+    }
+  ],
+  "pdbx_audit_revision_category": [
+    {
+      "category": "citation",
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "citation_author",
+      "data_content_type": "Structure model",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "citation",
+      "data_content_type": "Structure model",
+      "ordinal": 3,
+      "revision_ordinal": 3
+    },
+    {
+      "category": "chem_comp_atom",
+      "data_content_type": "Structure model",
+      "ordinal": 4,
+      "revision_ordinal": 4
+    },
+    {
+      "category": "chem_comp_bond",
+      "data_content_type": "Structure model",
+      "ordinal": 5,
+      "revision_ordinal": 4
+    },
+    {
+      "category": "database_2",
+      "data_content_type": "Structure model",
+      "ordinal": 6,
+      "revision_ordinal": 4
+    },
+    {
+      "category": "em_admin",
+      "data_content_type": "Structure model",
+      "ordinal": 7,
+      "revision_ordinal": 4
+    },
+    {
+      "category": "pdbx_entry_details",
+      "data_content_type": "Structure model",
+      "ordinal": 8,
+      "revision_ordinal": 4
+    },
+    {
+      "category": "pdbx_modification_feature",
+      "data_content_type": "Structure model",
+      "ordinal": 9,
+      "revision_ordinal": 4
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 2,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Data collection",
+      "ordinal": 3,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 4,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Structure summary",
+      "ordinal": 5,
+      "revision_ordinal": 4
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2020-02-26T00:00:00+0000"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 1,
+      "ordinal": 2,
+      "revision_date": "2020-03-04T00:00:00+0000"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 2,
+      "ordinal": 3,
+      "revision_date": "2020-03-18T00:00:00+0000"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 3,
+      "ordinal": 4,
+      "revision_date": "2024-11-13T00:00:00+0000"
+    }
+  ],
+  "pdbx_audit_revision_item": [
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.pdbx_database_id_PubMed",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.title",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation_author.name",
+      "ordinal": 3,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_volume",
+      "ordinal": 4,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_first",
+      "ordinal": 5,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_last",
+      "ordinal": 6,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_database_2.pdbx_DOI",
+      "ordinal": 7,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_database_2.pdbx_database_accession",
+      "ordinal": 8,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_em_admin.last_update",
+      "ordinal": 9,
+      "revision_ordinal": 4
+    }
+  ],
+  "pdbx_database_related": [
+    {
+      "content_type": "unspecified",
+      "db_id": "6LI2",
+      "db_name": "PDB"
+    },
+    {
+      "content_type": "associated EM volume",
+      "db_id": "EMD-0902",
+      "db_name": "EMDB",
+      "details": "cryo-EM structure of GPR52-miniGs-NB35"
+    }
+  ],
+  "pdbx_database_status": {
+    "deposit_site": "PDBJ",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBJ",
+    "recvd_initial_deposition_date": "2019-12-10T00:00:00+0000",
+    "status_code": "REL",
+    "sgentry": "N"
+  },
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "visualanalysis,molprobity,validation-pack,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "N",
+    "report_creation_date": "2024-11-03T17:46:00+0000"
+  },
+  "pdbx_vrpt_summary_em": [
+    {
+      "atom_inclusion_all_atoms": 0.635,
+      "atom_inclusion_backbone": 0.757,
+      "contour_level_primary_map": 0.036,
+      "exp_method": "electron microscopy",
+      "qscore": 0.379
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_rmsz": 0.42,
+      "bonds_rmsz": 0.24,
+      "clashscore": 7.53,
+      "num_hreduce": 8168,
+      "num_angles_rmsz": 11485,
+      "num_bonds_rmsz": 8472,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.0
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2019-12-10T00:00:00+0000",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2020-02-26T00:00:00+0000",
+    "major_revision": 1,
+    "minor_revision": 3,
+    "revision_date": "2024-11-13T00:00:00+0000",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "emdb_ids": [
+      "EMD-0902"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "entry_id": "6LI3",
+    "model_ids": [
+      1
+    ],
+    "polymer_entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "pubmed_id": 32076264,
+    "rcsb_id": "6LI3"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 8289,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 1045,
+    "deposited_nonpolymer_entity_instance_count": 0,
+    "deposited_polymer_entity_instance_count": 5,
+    "deposited_polymer_monomer_count": 1148,
+    "deposited_solvent_atom_count": 0,
+    "deposited_unmodeled_polymer_monomer_count": 103,
+    "disulfide_bond_count": 3,
+    "entity_count": 5,
+    "experimental_method": "EM",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 129.35,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 0,
+    "polymer_composition": "heteromeric protein",
+    "polymer_entity_count": 5,
+    "polymer_entity_count_dna": 0,
+    "polymer_entity_count_rna": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 5,
+    "polymer_entity_taxonomy_count": 5,
+    "polymer_molecular_weight_maximum": 39.13,
+    "polymer_molecular_weight_minimum": 7.85,
+    "polymer_monomer_count_maximum": 340,
+    "polymer_monomer_count_minimum": 71,
+    "resolution_combined": [
+      3.32
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "solvent_entity_count": 0,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10
+  },
+  "rcsb_external_references": [
+    {
+      "id": "EMD-0902",
+      "link": "https://www.emdataresource.org/EMD-0902",
+      "type": "EM DATA RESOURCE"
+    }
+  ],
+  "rcsb_primary_citation": {
+    "country": "UK",
+    "id": "primary",
+    "journal_abbrev": "Nature",
+    "journal_id_astm": "NATUAS",
+    "journal_id_csd": "0006",
+    "journal_id_issn": "1476-4687",
+    "journal_volume": "579",
+    "page_first": "152",
+    "page_last": "157",
+    "pdbx_database_id_doi": "10.1038/s41586-020-2019-0",
+    "pdbx_database_id_pub_med": 32076264,
+    "rcsb_orcididentifiers": [
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+    ],
+    "rcsb_authors": [
+      "Lin, X.",
+      "Li, M.",
+      "Wang, N.",
+      "Wu, Y.",
+      "Luo, Z.",
+      "Guo, S.",
+      "Han, G.W.",
+      "Li, S.",
+      "Yue, Y.",
+      "Wei, X.",
+      "Xie, X.",
+      "Chen, Y.",
+      "Zhao, S.",
+      "Wu, J.",
+      "Lei, M.",
+      "Xu, F."
+    ],
+    "rcsb_journal_abbrev": "Nature",
+    "title": "Structural basis of ligand recognition and self-activation of orphan GPR52.",
+    "year": 2020
+  },
+  "struct": {
+    "pdbx_caspflag": "N",
+    "title": "cryo-EM structure of GPR52-miniGs-NB35"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "MEMBRANE PROTEIN",
+    "text": "G-protein coupled receptor, orphan GPCR, self-activation, cryo-EM, MEMBRANE PROTEIN"
+  },
+  "rcsb_id": "6LI3"
+}

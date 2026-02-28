@@ -1,0 +1,640 @@
+{
+  "audit_author": [
+    {
+      "identifier_orcid": "0000-0003-3584-4804",
+      "name": "Kuntz, D.A.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "identifier_orcid": "0000-0002-0712-4319",
+      "name": "Prive, G.G.",
+      "pdbx_ordinal": 2
+    }
+  ],
+  "cell": {
+    "angle_alpha": 90.0,
+    "angle_beta": 108.32,
+    "angle_gamma": 90.0,
+    "length_a": 92.74,
+    "length_b": 72.29,
+    "length_c": 55.33,
+    "zpdb": 12
+  },
+  "citation": [
+    {
+      "id": "primary",
+      "journal_abbrev": "To Be Published",
+      "journal_id_csd": "0353",
+      "rcsb_authors": [
+        "Kuntz, D.A.",
+        "Prive, G.G."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "To be published",
+      "title": "Crystal structure of the BCL6 BTB domain in complex with OICR-11864"
+    }
+  ],
+  "database2": [
+    {
+      "database_code": "7T0S",
+      "database_id": "PDB",
+      "pdbx_doi": "10.2210/pdb7t0s/pdb",
+      "pdbx_database_accession": "pdb_00007t0s"
+    },
+    {
+      "database_code": "D_1000261396",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2016-02-21T00:00:00+0000",
+      "type": "DECTRIS PILATUS 6M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_ml": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "17-ID",
+      "pdbx_synchrotron_site": "APS",
+      "pdbx_wavelength_list": "1.000",
+      "source": "SYNCHROTRON",
+      "type": "APS BEAMLINE 17-ID"
+    }
+  ],
+  "entry": {
+    "id": "7T0S"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_matthews": 2.02,
+      "density_percent_sol": 38.97,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, SITTING DROP",
+      "p_h": 6.6,
+      "pdbx_details": "21% PEG6K as precipitant in pH 6.6 Cacodylate  10% DMSO +100 mM AmSO4\n    \n Crystal cryoprotected in resevoir buffer containing 25% glycerol",
+      "temp": 290.0
+    }
+  ],
+  "pdbx_audit_revision_category": [
+    {
+      "category": "chem_comp_atom",
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "chem_comp_bond",
+      "data_content_type": "Structure model",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "pdbx_initial_refinement_model",
+      "data_content_type": "Structure model",
+      "ordinal": 3,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Data collection",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Refinement description",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2022-12-14T00:00:00+0000"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 1,
+      "ordinal": 2,
+      "revision_date": "2023-10-25T00:00:00+0000"
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "Canada",
+      "funding_organization": "Ontario Institute for Cancer Research",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_related": [
+    {
+      "content_type": "unspecified",
+      "db_id": "7LWE",
+      "db_name": "PDB",
+      "details": "BCL6_BTB with OICR-7629"
+    },
+    {
+      "content_type": "unspecified",
+      "db_id": "7LWF",
+      "db_name": "PDB",
+      "details": "BCL6_BTB with OICR-9320"
+    },
+    {
+      "content_type": "unspecified",
+      "db_id": "7LWG",
+      "db_name": "PDB",
+      "details": "BCL6_BTB with OICR-12694"
+    },
+    {
+      "content_type": "unspecified",
+      "db_id": "7LZQ",
+      "db_name": "PDB",
+      "details": "BCL6_BTB with OICR-4425"
+    },
+    {
+      "content_type": "unspecified",
+      "db_id": "7LZS",
+      "db_name": "PDB",
+      "details": "BCL6_BTB with OICR-11029"
+    },
+    {
+      "content_type": "unspecified",
+      "db_id": "7RUW",
+      "db_name": "PDB",
+      "details": "BCL6_BTB with OICR-7859"
+    },
+    {
+      "content_type": "unspecified",
+      "db_id": "7RUX",
+      "db_name": "PDB",
+      "details": "BCL6_BTB with OICR-8311"
+    },
+    {
+      "content_type": "unspecified",
+      "db_id": "7RUY",
+      "db_name": "PDB",
+      "details": "BCL6_BTB with OICR-8388"
+    },
+    {
+      "content_type": "unspecified",
+      "db_id": "7RUZ",
+      "db_name": "PDB",
+      "details": "BCL6_BTB with OICR-8445"
+    },
+    {
+      "content_type": "unspecified",
+      "db_id": "7RV0",
+      "db_name": "PDB",
+      "details": "BCL6_BTB with OICR-8446"
+    },
+    {
+      "content_type": "unspecified",
+      "db_id": "7RV1",
+      "db_name": "PDB",
+      "details": "BCL6_BTB with OICR-8826"
+    },
+    {
+      "content_type": "unspecified",
+      "db_id": "7RV2",
+      "db_name": "PDB",
+      "details": "BCL6_BTB with OICR-8828"
+    },
+    {
+      "content_type": "unspecified",
+      "db_id": "7RV3",
+      "db_name": "PDB",
+      "details": "BCL6_BTB with OICR-9124"
+    },
+    {
+      "content_type": "unspecified",
+      "db_id": "7RV4",
+      "db_name": "PDB",
+      "details": "BCL6_BTB with OICR-9153"
+    },
+    {
+      "content_type": "unspecified",
+      "db_id": "7RV5",
+      "db_name": "PDB",
+      "details": "BCL6_BTB with OICR-9287"
+    },
+    {
+      "content_type": "unspecified",
+      "db_id": "7RV6",
+      "db_name": "PDB",
+      "details": "BCL6_BTB with OICR-9288"
+    },
+    {
+      "content_type": "unspecified",
+      "db_id": "7RV7",
+      "db_name": "PDB",
+      "details": "BCL6_BTB with OICR-9322"
+    },
+    {
+      "content_type": "unspecified",
+      "db_id": "7RV8",
+      "db_name": "PDB",
+      "details": "BCL6_BTB with OICR-10268"
+    },
+    {
+      "content_type": "unspecified",
+      "db_id": "7RV9",
+      "db_name": "PDB",
+      "details": "BCL6_BTB with OICR-10269"
+    }
+  ],
+  "pdbx_database_status": {
+    "deposit_site": "RCSB",
+    "pdb_format_compatible": "Y",
+    "process_site": "RCSB",
+    "recvd_initial_deposition_date": "2021-11-30T00:00:00+0000",
+    "status_code": "REL",
+    "status_code_sf": "REL",
+    "sgentry": "N"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "1R29",
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2023-10-15T18:36:00+0000"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "babinet_b": 133.084,
+      "babinet_k": 0.109,
+      "dcc_r": 0.21,
+      "eds_r": 0.21,
+      "fo_fc_correlation": 0.961,
+      "padilla_yeates_l2_mean": 0.302,
+      "padilla_yeates_lmean": 0.471,
+      "wilson_baniso": "[29.958,34.306,18.105,0.000,0.974,0.000]",
+      "wilson_bestimate": 26.269,
+      "acentric_outliers": 12,
+      "bulk_solvent_b": 53.221,
+      "bulk_solvent_k": 0.452,
+      "centric_outliers": 5,
+      "data_anisotropy": 0.59,
+      "data_completeness": 99.76,
+      "exp_method": "x-ray",
+      "num_miller_indices": 29324,
+      "number_reflns_rfree": 1379,
+      "percent_rsrzoutliers": 2.46,
+      "percent_free_reflections": 4.7,
+      "trans_ncsdetails": "The analyses of the Patterson function reveals a significant off-origin peak that is 70.16 % of the origin peak, indicating pseudo-translational symmetry.  The chance of finding a peak of this or larger height by random in a structure without pseudo-translational symmetry is equal to 3.2755e-06. The detected translational NCS is most likely also responsible for the elevated intensity ratio.  See the relevant section of the logfile for more details.",
+      "bfactor_type": "FULL",
+      "dccrfree": 0.25,
+      "edsres_high": 1.86,
+      "edsres_low": 55.87,
+      "iover_sigma": "2.21(1.86A)"
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_rmsz": 0.61,
+      "bonds_rmsz": 0.39,
+      "clashscore": 5.03,
+      "num_hreduce": 3040,
+      "num_angles_rmsz": 4114,
+      "num_bonds_rmsz": 3048,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 2.75
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2021-11-30T00:00:00+0000",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2022-12-14T00:00:00+0000",
+    "major_revision": 1,
+    "minor_revision": 1,
+    "revision_date": "2023-10-25T00:00:00+0000",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1",
+      "2"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "entry_id": "7T0S",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3",
+      "4"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "rcsb_id": "7T0S"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 2,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 3309,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 3128,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 366,
+    "deposited_nonpolymer_entity_instance_count": 6,
+    "deposited_polymer_entity_instance_count": 3,
+    "deposited_polymer_monomer_count": 381,
+    "deposited_solvent_atom_count": 187,
+    "deposited_unmodeled_polymer_monomer_count": 15,
+    "diffrn_radiation_wavelength_maximum": 1.0,
+    "diffrn_radiation_wavelength_minimum": 1.0,
+    "disulfide_bond_count": 0,
+    "entity_count": 5,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 45.62,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 3,
+    "nonpolymer_molecular_weight_maximum": 0.57,
+    "nonpolymer_molecular_weight_minimum": 0.04,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_dna": 0,
+    "polymer_entity_count_rna": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 14.56,
+    "polymer_molecular_weight_minimum": 14.56,
+    "polymer_monomer_count_maximum": 127,
+    "polymer_monomer_count_minimum": 127,
+    "resolution_combined": [
+      1.86
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "PDB_EXTRACT",
+      "PHASER",
+      "PHENIX",
+      "SCALA",
+      "XDS"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.86
+    }
+  },
+  "rcsb_primary_citation": {
+    "id": "primary",
+    "journal_abbrev": "To Be Published",
+    "journal_id_csd": "0353",
+    "rcsb_orcididentifiers": [
+      "0000-0003-3584-4804",
+      "0000-0002-0712-4319"
+    ],
+    "rcsb_authors": [
+      "Kuntz, D.A.",
+      "Prive, G.G."
+    ],
+    "rcsb_journal_abbrev": "To be published",
+    "title": "Crystal structure of the BCL6 BTB domain in complex with OICR-11864"
+  },
+  "refine": [
+    {
+      "ls_rfactor_rfree": 0.2495,
+      "ls_rfactor_rwork": 0.2117,
+      "ls_rfactor_obs": 0.2134,
+      "ls_dres_high": 1.86,
+      "ls_dres_low": 29.78,
+      "ls_number_reflns_rfree": 1377,
+      "ls_number_reflns_rwork": 27854,
+      "ls_number_reflns_obs": 29231,
+      "ls_percent_reflns_rfree": 4.71,
+      "ls_percent_reflns_obs": 99.47,
+      "overall_suml": 0.2,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "THROUGHOUT",
+      "pdbx_ls_sigma_f": 1.34,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 26.89,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.11,
+      "pdbx_starting_model": "1R29",
+      "pdbx_stereochemistry_target_values": "ML",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL",
+      "biso_max": 96.42,
+      "biso_mean": 34.8802,
+      "biso_min": 14.86
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "final",
+      "d_res_high": 1.86,
+      "d_res_low": 29.78,
+      "number_atoms_solvent": 187,
+      "number_atoms_total": 3382,
+      "pdbx_biso_mean_ligand": 32.15,
+      "pdbx_biso_mean_solvent": 41.67,
+      "pdbx_number_atoms_ligand": 277,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 2918,
+      "pdbx_number_residues_total": 366,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.007,
+      "number": 3184,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 1.054,
+      "number": 4327,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 16.041,
+      "number": 1166,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    },
+    {
+      "dev_ideal": 0.065,
+      "number": 496,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.011,
+      "number": 533,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    }
+  ],
+  "reflns": [
+    {
+      "d_resolution_high": 1.856,
+      "d_resolution_low": 55.869,
+      "number_obs": 29330,
+      "pdbx_cchalf": 0.999,
+      "pdbx_rmerge_iobs": 0.078,
+      "pdbx_rpim_iall": 0.041,
+      "pdbx_rrim_iall": 0.088,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_net_iover_sigma_i": 10.6,
+      "pdbx_number_measured_all": 131396,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 4.5,
+      "percent_possible_obs": 99.8,
+      "biso_wilson_estimate": 26.25
+    }
+  ],
+  "reflns_shell": [
+    {
+      "rmerge_iobs": 0.709,
+      "d_res_high": 1.856,
+      "d_res_low": 1.862,
+      "number_measured_all": 1173,
+      "number_unique_obs": 280,
+      "pdbx_cchalf": 0.866,
+      "pdbx_rpim_iall": 0.392,
+      "pdbx_rrim_iall": 0.813,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_net_iover_sigma_iobs": 2.3,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 4.2,
+      "percent_possible_all": 96.6
+    },
+    {
+      "rmerge_iobs": 0.033,
+      "d_res_high": 8.605,
+      "d_res_low": 55.869,
+      "number_measured_all": 1289,
+      "number_unique_obs": 313,
+      "pdbx_cchalf": 0.999,
+      "pdbx_rpim_iall": 0.018,
+      "pdbx_rrim_iall": 0.037,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_net_iover_sigma_iobs": 20.6,
+      "pdbx_ordinal": 2,
+      "pdbx_redundancy": 4.1,
+      "percent_possible_all": 98.7
+    }
+  ],
+  "software": [
+    {
+      "classification": "data reduction",
+      "name": "XDS",
+      "pdbx_ordinal": 1
+    },
+    {
+      "classification": "data scaling",
+      "name": "SCALA",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "phasing",
+      "name": "PHASER",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 4,
+      "version": "1.19.2_4158"
+    },
+    {
+      "classification": "data extraction",
+      "name": "PDB_EXTRACT",
+      "pdbx_ordinal": 5,
+      "version": "3.27"
+    }
+  ],
+  "struct": {
+    "pdbx_caspflag": "N",
+    "title": "Crystal structure of the BCL6 BTB domain in complex with OICR-11864"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "TRANSCRIPTION/TRANSCRIPTION INHIBITOR",
+    "text": "immunity, inflammatory response, transcription repressor, TRANSCRIPTION-TRANSCRIPTION INHIBITOR complex"
+  },
+  "symmetry": {
+    "int_tables_number": 5,
+    "space_group_name_hm": "C 1 2 1"
+  },
+  "rcsb_id": "7T0S"
+}
